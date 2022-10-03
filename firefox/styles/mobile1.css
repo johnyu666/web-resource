@@ -1,0 +1,63 @@
+/* mobile.css */
+
+/* 定义一个名字叫john_rotate的动画对象 */
+@keyframes john_rotate {
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+body{
+   
+}
+#container{
+    width: 700px;
+    background-color:antiquewhite;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#container img{
+   width: 70%; 
+   /* 应用动画 */
+   animation: john_rotate linear 5s infinite;
+}
+p,ul{
+    text-align:justify;
+    font-size: 23px;
+    line-height: 2em;
+    font-family: KaiTi SC, serif;
+}
+p{
+   text-indent: 4ch; 
+}
+p::first-letter{
+   font-size: 2em;
+   font-weight: 900; 
+   color: orangered;
+}
+
+p:hover,li:hover{
+   color: orangered; 
+}
+h1{
+    line-height: 3em;
+    background-color: black;
+    color: white;
+    text-shadow: 10px 10px 10px orangered;
+    border-radius: 20px;
+}
+#author{
+    text-align: right;
+}
+#author::after{
+    content: '-JohnYu作品';
+}
+#content{
+    padding-left: 10px;
+    padding-right: 10px;
+}

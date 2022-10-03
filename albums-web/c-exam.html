@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript" charset="utf-8"
+    src="https://files.cnblogs.com/files/liuzhou1/L2Dwidget.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://files.cnblogs.com/files/liuzhou1/L2Dwidget.min.js"></script>
+
+
+
+<style>
+    body {
+background: #050901;   
+}
+.t{
+    font-size: 50px;
+    font-weight: 900;
+}
+.light {
+width: fit-content;
+padding: 25px 30px;
+color: #03e9f4;
+
+
+transition: 0.5s;
+letter-spacing: 4px;
+cursor: pointer;
+}
+.light:hover {
+background-color: #03e9f4;
+color: #050801;
+box-shadow: 0 0 5px #03e9f4,
+          0 0 25px #03e9f4,
+          0 0 50px #03e9f4,
+          0 0 200px #03e9f4;
+}
+h1,p,h3,ul,span{
+    color: white;
+}
+</style>
+<body style="padding-left: 50px;">
+    <div class="light t">
+        辽宁金融学院 21级 C语言阶段测试题：
+     </div>
+    
+    <hr>
+    <p>各位21开发和网络班的小可爱们，我们的课程已经进入到关键的节点，由于长期的网课授课会让大家有所倦怠，今天我们安排一次测试，希望大家能认真对待：</p>
+    <p>
+        请大家按以下程序的结构，写出自己的代码，可以统计并打印出文章的：小写字母，大写字母，逗号句号的数量。
+    </p>
+    <p>
+        <h3>生成的结果如下：</h3>
+        <ul>
+            <li>小写字母：189个</li>
+            <li>大写字母：34个</li>
+            <li>逗号及句号：28</li>
+        </ul>
+        <span>具体是多少，我也不知道 :-)</span>
+    </p>
+    <h3>程序结构如下：（请用鼠标拖选，并复制粘贴到自己的c语言中）</h3>
+    <pre class="light" style="background-color: black;color: white;">
+        #include &lt;stdio.h&gt;
+
+        int main(int argc, char const *argv[])
+        {
+            char *s="WASHINGTON — The House narrowly passed the centerpiece of President Biden’s domestic agenda on Friday, approving $2.2 trillion in spending over the next decade to battle climate change, expand health care and reweave the nation’s social safety net, over the unanimous opposition of RepublicansThe bill’s passage, 220 to 213, came after weeks of cajoling, arm-twisting and legislative legerdemain by Democrats. It was capped off by an exhausting, circuitous and record-breaking speech of more than eight hours by the House Republican leader, Representative Kevin McCarthy of California, that pushed a planned Thursday vote past midnight, then delayed it to Friday morning — but did nothing to dent Democratic unity. Groggy lawmakers reassembled at 8 a.m., three hours after Mr. McCarthy finally abandoned the floor, to begin the final series of votes to send one of the most consequential pieces of legislation in half a century to the Senate. “Under this dome, for centuries, members of Congress have stood exactly where we stand to pass legislation of extraordinary consequence in our nation’s history and for our nation’s future,” Speaker Nancy Pelosi said, adding that the act “will be the pillar of health and financial security in America.”";
+            //以下是你的代码：
+            return 0;
+        }
+    </pre>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <script type="text/javascript">
+        window.onload=function(){
+            L2Dwidget.init({
+            "model": { "jsonPath": "https://unpkg.com/live2d-widget-model-haruto@1.0.5/assets/haruto.model.json", "scale": 1, "hHeadPos": 0.5, "vHeadPos": 0.618 },
+            "dialog": {
+                enable: true,
+                script: {
+                    'tap body': '哎呀！别碰我！',
+                    'tap face': '人家是在认真写博客哦--前端妹子',
+                }
+            },
+            "mobile": { "show": true, scale: 0.5 },
+            "display": {
+                "superSample": 2,
+                "width": 200,
+                "height": 400,
+                "position": "left",
+                "hOffset": 0,
+                "vOffset": 0
+            }
+        });
+        }
+        
+        
+    </script>
+
+</body>
+
+</html>

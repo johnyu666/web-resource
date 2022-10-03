@@ -1,0 +1,12 @@
+{
+    "cafee": [
+      { "id":1,"name": "美式","standardName":"American", "price": 28.5, "stock": 5,"img":"american.jpeg" },
+      { "id":2,"name": "意式浓缩", "standardName":"Espresso","price": 32.00, "stock": 6 ,"img":"espresso.jpeg" },
+      { "id":3,"name": "卡布奇诺", "standardName":"Cappuccino","price": 39.3, "stock": 2,"img":"cappuccino.jpeg"  },
+      {"id":4, "name": "焦糖玛奇朵","standardName":"Macchiato", "price": 41.0, "stock": 24,"img":"macchiato.jpeg"  },
+      {"id":5, "name": "拿铁", "standardName":"Latte","price": 36.8, "stock": 12 ,"img":"latte.jpeg" },
+      {"id":6, "name": "摩卡", "standardName":"Moca","price": 45, "stock": 10 ,"img":"moca.jpeg" },
+      {"id":7, "name": "阿法奇多", "standardName":"Affogato","price": 55, "stock": 6 ,"img":"affogato.jpeg" },
+      {"id":8, "name": "可塔朵", "standardName":"Cortado","price": 36, "stock": 8 ,"img":"cortado.jpeg" }
+    ]
+  }

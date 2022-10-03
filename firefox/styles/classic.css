@@ -1,0 +1,46 @@
+@font-face {
+    font-family: john;
+    src: url('../fonts/LiuJianMaoCao-Regular.ttf');
+}
+#container{
+background-image: url('../images/paper1.jpg');
+background-size: 1100px 1100px;
+background-position: -100px -140px;
+background-repeat: no-repeat;
+margin: 0 auto;
+background-color: antiquewhite;
+width: 800px;
+line-height: 2em;
+font: 28px john;
+letter-spacing: 1ex;
+
+padding: 6px;
+padding-left: 30px;
+color: rgba(129, 95, 66 ,0.7);
+box-shadow: 80px 80px 100px antiquewhite;
+}
+img{
+width: 120px;
+display: block;
+margin: 0 auto;
+opacity:0.7;
+}
+#content{
+column-count:2;
+column-gap: 40px;
+column-rule:1px dotted gray;
+padding: 10px;
+}
+h1{
+text-align: center;
+padding-bottom: 20px;
+border-bottom: dotted 1px gray;
+}
+p{
+text-indent: 4ex;
+}
+
+
+#author::after{
+    content: '-JohnYu 作品';
+}

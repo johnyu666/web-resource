@@ -1,0 +1,53 @@
+/* ./styles/mobile.css */
+#container{
+    margin: 0 auto;
+    width: 600px;
+    background-color: antiquewhite; 
+    text-align: center;
+    border: 1px solid orangered;
+    border-radius: 16px;
+   
+}
+#container>h1{
+    background-color: black;
+    color: white;
+    line-height: 2.5em;
+    text-shadow: 10px 10px 10px orangered;
+    letter-spacing: 0.2ch;
+    margin: 0 0 20px 0;
+    border-radius: 15px 15px 0 0;  
+}
+#content{
+    padding: 10px;
+}
+/* 定义动画对象 */
+@keyframes john_rotate {
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+#content>img{
+    width: 70%;
+    /* 应用动画 */
+    animation: john_rotate 5s linear infinite;
+}
+p,ul{
+    text-align:justify;
+    font: 26px/2 KaiTi SC,serif;
+}
+p:hover,li:hover{
+    color: orangered;
+}
+p{
+    text-indent: 4ch;
+}
+p::first-letter{
+    font-size: 2em;
+    color: orangered;
+}
+#author{
+    text-align: right;
+}
+#author::before{
+    content: "JohnYu作品";
+}
+

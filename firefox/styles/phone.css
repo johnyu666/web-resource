@@ -1,0 +1,70 @@
+
+@keyframes john_animated {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+body,h1,h2{
+    padding: 0;
+    margin: 0;
+}
+body{
+  font:18px/2 sans-serif;
+}
+li{
+    /* list-style-type: trad-chinese-informal; */
+    /* list-style-type: kannada; */
+    text-decoration: underline;
+    list-style-type: georgian;
+   
+    
+}
+img{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    animation: john_animated 3s linear infinite;
+}
+
+#container{
+    width: 500px;
+    border: 1px solid gold;
+    background-color: aliceblue;
+    margin: 0 auto;
+    
+}
+#content{
+    padding: 10px 20px;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+    text-shadow: 4px 4px 2px red;
+    
+}
+p{
+    text-indent: 4ex;
+
+}
+p::first-letter{
+    font-size: 3em;
+    color: tomato;
+    font-weight: 200;
+    font-style: italic;
+    
+}
+p::first-line{
+    font-weight: 900;
+}
+
+#author{
+    text-align: end;
+}
+#author::after{
+    content: '-JohnYu 作品';
+}

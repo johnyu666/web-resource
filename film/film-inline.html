@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #container{
+            width: 1000px;
+            background-color:antiquewhite;
+            margin: 0 auto;
+        }
+        header{
+            height: 100px;
+            background-color:olive;
+            position: relative;
+        }
+        nav{
+            position:absolute;
+            bottom:0;
+            width: 100%;
+            text-align: right;
+        }
+        nav li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 50px;
+        }
+        main{
+            background-color:aquamarine;
+            overflow:hidden;
+        }
+        aside,#content{
+            display: inline-block;
+
+        }
+        aside{
+            width: 300px;
+            height:10000px;
+            background-color:cadetblue;
+            vertical-align: top;
+            margin-bottom: -9900px;
+            
+        }
+        #content{
+            width: calc(100% - 310px);
+            
+            text-align:center;
+        }
+        .film{
+            width: 40%;
+            height: 300px;
+            background-color:tomato;
+            display: inline-block;
+            margin: 20px 30px;
+            border-radius: 30px;
+        }
+        .film{
+            text-align: center;
+        }
+        .film img{
+            vertical-align:middle;
+            width: 0;
+            height: 100%;
+        }
+        footer{
+            background-color: black;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <li>导航1</li>
+                <li>导航2</li>
+                <li>导航3</li>
+                <li>导航4</li>
+                <li>导航5</li>
+                <li>导航6</li>
+            </nav>
+        </header>
+        <main>
+            <aside></aside>
+            <div id="content">
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

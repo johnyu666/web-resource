@@ -1,0 +1,141 @@
+{
+  "albums": [
+    {
+      "id": 3,
+      "name": "当真33333333333333333",
+      "singers": [
+        "蒋蒋",
+        "曲肖冰"
+      ],
+      "price": "47",
+      "releaseDate": "2013-12-23",
+      "style": [
+        "rock"
+      ],
+      "img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000RgBrK06p5mH_1.jpg?max_age=2592000",
+      "area": "港台"
+    },
+    {
+      "id": 4,
+      "name": "Sugar1223",
+      "singers": [
+        "Maroon 5"
+      ],
+      "price": 22,
+      "releaseDate": "2008-05-25",
+      "style": [
+        "pop"
+      ],
+      "img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001QUxsr2KyrU0_1.jpg?max_age=2592000",
+      "area": "港台"
+    },
+    {
+      "id": 5,
+      "name": "浅橘色孤岛 (Live)",
+      "singers": [
+        "戴燕妮",
+        "段艺璇",
+        "宋昕冉",
+        "许馨文",
+        "徐紫茵",
+        "张钰",
+        "左卓"
+      ],
+      "price": 12,
+      "releaseDate": "2019-08-20",
+      "style": [
+        "country",
+        "rock"
+      ],
+      "img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001AqDHy2gFHum_1.jpg?max_age=2592000",
+      "area": "港台"
+    },
+    {
+      "id": 7,
+      "name": "点歌的人23",
+      "singers": [
+        "海来阿木"
+      ],
+      "price": 88,
+      "releaseDate": "2020-03-15",
+      "style": [
+        "blues",
+        "rock"
+      ],
+      "img": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001NvtHt3hFmxE_1.jpg?max_age=2592000",
+      "area": "内地"
+    },
+    {
+      "name": "桌子",
+      "price": "23",
+      "area": "内地",
+      "id": 8
+    },
+    {
+      "name": "桌子",
+      "price": "23",
+      "area": "内地",
+      "id": 9
+    },
+    {
+      "name": "桌子",
+      "price": "23111",
+      "area": "内地",
+      "id": 10
+    },
+    {
+      "name": "张圣旭",
+      "price": "23",
+      "area": "内地",
+      "id": 11
+    },
+    {
+      "name": "桌子",
+      "price": "22222",
+      "area": "内地",
+      "id": 12
+    },
+    {
+      "name": "金金",
+      "price": "23",
+      "area": "内地",
+      "id": 13
+    },
+    {
+      "area": "内地",
+      "name": "桌子的东西",
+      "price": "235",
+      "id": 14
+    },
+    {
+      "name": "桌子",
+      "price": "23",
+      "area": "内地周杰伦",
+      "id": 15
+    },
+    {
+      "name": "刘阳",
+      "price": "999",
+      "area": "内地",
+      "id": 16
+    },
+    {
+      "name": "11",
+      "price": "23",
+      "area": "内地",
+      "id": 17
+    },
+    {
+      "name": "app",
+      "price": "123",
+      "area": "内地",
+      "id": 18
+    },
+    {
+      "name": "wangbb78 ",
+      "price": "23",
+      "area": "内地",
+      "id": 19
+    }
+  ]
+}

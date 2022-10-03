@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./scripts/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- View和Model绑定方式 -->
+        <!-- {{}}是插值绑定 -->
+        <h1>{{count}}</h1>
+        <!-- 非受控表单，使用ref==reference(引用) -->
+        <input type="number" ref="step" value="2"><br>
+        <!-- v-on 事件绑定 -->
+        <button v-on:click="increment">增加</button>
+        <button v-on:click="count=count-1">减少</button>
+        <hr>
+        <!-- 受控表单，双向绑定 -->
+        <input type="number" v-model="step">{{step}} <br>
+        <button v-on:click="increment1">增加</button>
+        <button v-on:click="decrement1">减少</button>
+    </div>
+
+    <script>
+        let App={
+            data(){
+                return {count:0,step:2}
+            },
+            methods:{
+                increment(){
+                    //Vue组件会搜索View中的ref属性，并把属性值挂载到$refs上
+                    let step=this.$refs.step.value
+                    //做字符串转换成为数值
+                    step=Number.parseInt(step)
+                    this.count=this.count+step
+                },
+                decrement(){
+                    this.count=this.count-1
+                },
+                increment1(){
+                    this.count+=this.step
+                },
+                decrement1(){
+                    this.count-=this.step
+                }
+            }
+
+        }
+        Vue.createApp(App).mount("#app")
+    </script>
+</body>
+</html>

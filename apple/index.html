@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple (中国大陆) - 官方网站</title>
+    <style>
+        body,ul,p{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        body{
+            font: 12px sans-serif
+        }
+        #adv{
+            height: 46px;
+            background: #444;
+            color: #a8a8aa;
+        }
+        #adv span:last-child{
+            position:absolute;
+            right: 230px;
+            top: 10px;
+        }
+        nav{
+            height: 50px;
+            background-color: rgb(0,0,0,0.9);
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav li{
+            display: inline-block;
+            color: #bbb;
+            font-size: 1.2em;
+            font-weight: 100;
+            margin: 0 40px;
+            vertical-align:middle;
+            cursor: pointer;
+        }
+        nav li:first-child{
+            width: 30px;
+            height: 44px;
+            background: url('./images/apple.svg') no-repeat;
+        }
+        nav li:nth-child(8){
+            width: 18px;
+            height: 44px;
+            background-image: url(images/search.svg) ;
+            background-repeat: no-repeat;
+            background-position: 100px 100px;
+            background-size: 18px 80px;
+        }
+        nav li:last-child{
+            width: 18px;
+            height: 44px;
+            background: url('./images/bag.svg') no-repeat;
+        }
+
+        nav li:hover{
+            font-weight: 300;
+            color: white;
+        }
+        #info{
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            background-color: #f5f5f7;
+            line-height: 2.2em;
+        }
+
+        section{
+            text-align: center;
+        }
+        section h2{
+            font-size: 4.5em;
+            font-weight: 900;
+            margin-bottom: 2px;
+        }
+        section h4{
+            margin: 0 0;
+            font-size: 2em;
+            font-weight: 400;
+            
+        }
+        section p{
+            font-size: 1.4em;
+            color: #999;
+            font-weight: 200;
+        }
+        img{
+            width: 100%;
+        }
+        .iphone12{
+            height: 624px;
+            background-size: 3010px 624px;
+            background-position: -670px -300px;
+            background-image: url('./images/iphone_12.jpg');
+        }
+        #buy{
+            margin-top: 50px;
+        }
+        #buy a{
+            color: #06c;
+            margin: 0 20px;
+            font-size: 1.2em;
+            font-weight: 200;
+            text-decoration:none
+        }
+    </style>
+</head>
+<body>
+    <div id="adv">
+        <span><广告></span>
+    </div>
+    <nav>
+        <ul>
+            <li class="pic"></li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>iPhone</li>
+            <li>Watch</li>
+            <li>Music</li>
+            <li>技术支持</li>
+            <li class="pic" style="background: url('./images/search.svg') no-repeat;"></li>
+            <li class="pic" style="background: url('./images/bag.svg') no-repeat;"></li>
+        </ul>
+    </nav>
+    <section>
+        <p id="info"><a href="#">在线选购</a>，享受免费送货、Specialist 专家支持、免息分期等服务。</p>
+        <h2>iPhone 12</h2>
+        <h4>升维大提速。</h4>
+        <p>RMB 229/月或RMB 5499 起</p>
+        <p>还可折抵换购<sup>1</sup></p>
+
+        <p id="buy"><a href="#">进一步了解 ></a> <a href="#">购买></a></p>
+        <p class="iphone12"></p>
+    </section>
+
+    
+    
+</body>
+</html>

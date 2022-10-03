@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: #FBFBFD;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(0, 102, 204)
+}
+ul,p{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+#container{
+    padding-top: 88px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+header div:first-of-type{
+    height: 40px;
+    background-color: #444;
+}
+header nav{
+    
+    background-color: #333;
+}
+nav ul{
+    text-align: center;
+}
+nav img{
+    vertical-align: middle;
+}
+nav li,nav img{
+    display: inline-block;
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-right: 60px;        
+}
+.ribbon-shop-online{
+    height: 44px;
+    background-color: #F5F5F7;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(29, 29, 31);
+    font-weight: 300;
+}
+.ribbon-shop-online>span{
+    position: relative;
+    top: 10px;
+}
+.level{
+    height: 693px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover;
+
+    text-align: center;
+}
+.level1{
+    background-image: url("./images/iphone13_pro.jpg");
+}
+.level2{
+    background-image: url("./images/iphone13.jpg");
+}
+.level h1{
+    font-size: 65px;
+    margin: 6px 0px;
+}
+.level h2{
+    font-size:24px;
+    font-weight: 400;
+    margin: 6px 0px;
+}
+.level h3{
+    font-size: 21px;
+    font-weight: 200;
+    margin: 20px 0px;
+}
+
+.level h3 a:first-of-type{
+    margin-right: 30px;
+    
+}
+.level2{
+    
+}
+.level2 h1{
+    color: white;
+}
+.level2 h2{
+    color: #fec2eb;
+}
+.level2 h3{
+    color: #2897FE;
+}

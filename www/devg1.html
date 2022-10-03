@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @keyframes my_rotate {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+        body{
+            background-color:antiquewhite;
+        }
+        #container{
+            text-align: center;
+        }
+        h1,h2{
+            background-color:green;
+            color: white;
+            margin: 0;
+        }
+        h1{
+            line-height: 2em;
+            font-size: 60px;
+            text-decoration: underline;
+            letter-spacing: 50px;
+            
+            
+        }
+        h1:hover{
+            color: red;
+            cursor: pointer;
+        }
+        img{
+            height: 300px;
+            border-radius: 20px;
+            margin: 10px;
+            
+        }
+        .rotate{
+            animation: my_rotate 5s linear 5;  
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>开发班全体</h1>
+        <img src="http://johnyu.cn/dev_g1/photos/2138010101.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010102.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010103.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010104.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010105.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010106.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010107.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010108.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010109.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010110.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010111.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010112.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010113.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010114.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010115.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010116.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010117.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010118.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010119.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010120.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010121.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010122.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010123.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010124.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010125.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010126.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010127.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010128.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010129.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010130.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010131.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010132.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010133.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010134.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010135.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010136.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010137.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010138.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010140.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010141.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010142.jpg" alt=""><img
+            src="http://johnyu.cn/dev_g1/photos/2138010143.jpg" alt="">
+            <h2>copy right 2022-2029 John Yu </h2>
+    </div>
+
+    <script>
+        document.querySelector('h1').addEventListener('click',function(){
+            let images=document.querySelectorAll('img')
+            for(let i=0;i<images.length;i++){
+                images[i].classList.add('rotate')
+            }
+        })
+    </script>
+</body>
+
+</html>

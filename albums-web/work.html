@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vue练习:点击“提交”，向表格追加数据；点击“删除”,可以删除当前行</h1>
+    <hr>
+    <form action="#">
+        姓名：<input type="text" placeholder="请输入姓名"><br>
+        性别：
+        <input name="gender" checked type="radio" value="true">男
+        <input name="gender" type="radio" value="false">女 <br>
+        爱好：<input type="checkbox" value="football">足球<input type="checkbox" value="shopping">购物<input type="checkbox" value="game">游戏 <br>
+
+        专业：<select>
+            <option value="cs" label="计算机科学"></option>
+            <option value="se" label="软件工程"></option>
+            <option value="data" label="大数据"></option>
+        </select>
+        <br><br>
+        <button style="width: 300px;">提交</button>
+    </form>
+    <hr>
+    <table>
+        <tr>
+            <th>姓名</th><th>性别</th><th>爱好</th><th>专业</th>
+        </tr>
+        <tr>
+            <td>东北松子</td><td>男</td><td>足球</td><td>计算机科学</td>
+            <td><a href="#">删除</a></td>
+        </tr>
+    </table>
+</body>
+</html>

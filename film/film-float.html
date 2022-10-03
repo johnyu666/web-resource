@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #container{
+            background-color:antiquewhite;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            background-color:olive;
+            height: 100px;
+            position: relative;
+        }
+        nav{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        nav li{
+            float: left;
+            list-style: none;
+            margin-right: 50px;
+        }
+        main{
+            overflow: hidden;
+        }
+        aside{
+            float: left;
+            width:  300px;
+            height: 2500px;
+            margin-bottom: -2300px;
+            background-color:cadetblue;
+        }
+        #content{
+            float: right;
+            width: calc(100% - 310px);
+        }
+        .film{
+            border-radius: 30px;
+            text-align: center;
+            width: 40%;
+            height: 200px;
+            background-color:tomato;
+            float: left;
+            margin: 30px 30px;
+        }
+        .film img{
+            width: 0;
+            height: 100%;
+            vertical-align: middle;
+        }
+        footer{
+            background-color: black;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <li>导航1</li>
+                <li>导航2</li>
+                <li>导航3</li>
+                <li>导航4</li>
+                <li>导航5</li>
+                <li>导航6</li>
+            </nav>
+        </header>
+        <main>
+            <aside></aside>
+            <div id="content">
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+                <div class="film">
+                    <img src="./bai.png">
+                    电影1 
+                </div>
+            </div>
+            <div class="clear" style="clear: both;"></div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

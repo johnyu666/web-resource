@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 1000px;
+            background-color:antiquewhite;
+            margin: 0 auto;
+        }
+        header{
+            height: 100px;
+            background-color:olive;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+        }
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            column-gap: 40px;
+            margin-right: 100px;
+        }
+        nav li{
+            list-style-type: none;
+            
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        aside{
+            flex-basis: 300px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            background-color:cadetblue;
+        }
+        #content{
+            padding: 20px 0;
+            flex-grow: 1;
+            background-color:azure;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 30px;
+            justify-content: space-around;
+        }
+        .film{
+            flex-basis: 40%;
+            background-color:tomato;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+        }
+        footer{
+            height: 100px;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <li>导航1</li>
+                <li>导航2</li>
+                <li>导航3</li>
+                <li>导航4</li>
+                <li>导航5</li>
+                <li>导航6</li>
+            </nav>
+        </header>
+        <main>
+            <aside></aside>
+            <div id="content">
+                <div class="film">电影1</div>
+                <div class="film">电影2</div>
+                <div class="film">电影3</div>
+                <div class="film">电影4</div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
